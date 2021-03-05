@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/test.html --public-url ./"
+  },
+  "name": "pikachu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001196"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
